@@ -1,0 +1,10 @@
+#headerContainer{
+    height: 175vh;
+    margin-bottom: 2rem;
+}
+
+.resume{
+    height: 100%;
+    width: 100%;
+    /* margin-left: auto; */
+}
