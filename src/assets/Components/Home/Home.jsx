@@ -44,7 +44,7 @@ function Home() {
               <div className="p-container">
                 <div className="p-card">
                   <div className="p-image-container">
-                    <img src="public\25516.jpg" alt="" className="p-image" />
+                    <img src="25516.jpg" alt="" className="p-image" />
                   </div>
                   <div className="p-title">
                     <h6 className="p-name">Social Media Comment Sentiment Analyzer</h6>
@@ -56,7 +56,7 @@ function Home() {
 
                 <div className="p-card">
                   <div className="p-image-container">
-                    <img src="public\Screenshot (730).png" alt="" className="p-image" />
+                    <img src="Screenshot (730).png" alt="" className="p-image" />
                   </div>
                   <div className="p-title">
                     <h6 className="p-name">YouTube And Spotify Clone with YouTube videos downloader</h6>
@@ -105,30 +105,30 @@ function Home() {
               <div className="s-body-logos">
                 <div className="s-logos-first">
                     <div className="s-logos-container">
-                      <img src="public\c-1.svg" className="s-logos" alt="" />
+                      <img src="c-1.svg" className="s-logos" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="public\c.svg" className="s-logos" alt="" />
+                      <img src="c.svg" className="s-logos" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="public\python-5.svg" className="s-logos" alt="" />
+                      <img src="python-5.svg" className="s-logos" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="public\react-2.svg" className="s-logos" alt="" />
+                      <img src="react-2.svg" className="s-logos" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="public\mongodb-icon-2.svg" className="s-logos" alt="" />
+                      <img src="mongodb-icon-2.svg" className="s-logos" alt="" />
                     </div>
                 </div>
                 <div className="s-logos-second">
                     <div className="s-logos-container">
-                      <img src="public\logo-javascript.svg" className="s-logos" alt="" />
+                      <img src="logo-javascript.svg" className="s-logos" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="public\github-icon-1.svg" className="s-logos" alt="" />
+                      <img src="github-icon-1.svg" className="s-logos" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="public\CSS3_logo_and_wordmark.svg" className="s-logos" alt="" />
+                      <img src="CSS3_logo_and_wordmark.svg" className="s-logos" alt="" />
                     </div>
                     <div className="s-logos-container">
                       <img src="mysql-official.svg" className="s-logos" alt="" />
