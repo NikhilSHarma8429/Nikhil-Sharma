@@ -31,11 +31,21 @@ body{
 .logos {
   display: inline-block; /* Change display to inline-block or block */
   margin-right: 0.5rem;
+  /* height: 100px;
+  width: 100px; */
   padding: 1rem; /* Add padding if needed */
+  /* width: 40px;
+  height: 40px; */
+  /* aspect-ratio: 1/1; */
   background-color: #161d29;
   /* border: 1px solid #161d29;  */
   border-radius: 3rem;
   color: #a5b3ce;
+}
+
+.test{
+  height: 50px;
+  width: 50px;
 }
 
 .sidebar-container{
@@ -96,18 +106,27 @@ body{
   margin-top: 5rem;
   background-color: #1e2738;
   width: 68%;
-  height: 18rem;
+  /* height: 18rem; */
 }
 
 .header-heading{
   color: #ffffff;
-  height: 45%;
-  display: flex;
-  justify-content: center;
+  /* height: 45%; */
+  /* margin: 0 auto; */
+  /* margin-top: 2rem; */
+  /* display: flex;
+  justify-content: center; */
 }
 
 .header-title{
-  margin-top: 8%;
+  /* margin-top: 20rem; */
+}
+
+.header-title h1{
+  width: max-content;
+  margin: 0 auto;
+  padding-top: 4rem;
+  /* margin-top: 8%; */
 }
 
 .header-paragraph{
@@ -117,17 +136,18 @@ body{
 
 .paragraph{
   width: 70%;
-  height: 40%;
+  /* height: 40%; */
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding-top: 1rem;
   color: #a5b3ce;
   font-family: "Inter", sans-serif;
 }
 
 .paragraph-button-container{
   width: 100%;
-  height: 60%;
+  /* height: 60%; */
+  padding: 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,43 +176,50 @@ body{
   margin-top: 1rem;
   background-color: #1e2738;
   width: 68%;
-  height: 38rem;
+  /* height: 38rem; */
 }
 
 .project-header-container{
-  height: 30%;
+  /* height: 30%; */
 }
 
 .p-header-title{
-  height: 50%;
+  /* height: 50%;
   width: max-content;
   margin: 0 auto;
   padding-top: 3rem;
+  color: white; 
+  font-weight:bold; */
+}
+
+.p-project-title h1{
   color: white;
-  /* font-weight:bold; */
+  width: max-content;
+  margin: 0 auto;
+  padding-top: 1.5rem;
 }
 
 .p-header-paragraph{
-  height: 50%;
+  /* height: 50%;
   width: 60%;
   padding-top: 1rem;
   color: #a5b3ce;
   font-family: "Inter", sans-serif;
   margin: 0 auto;
-  text-align: center;
+  text-align: center; */
 }
 
 .project-body-container{
-  height: 55%;
+  /* height: 55%; */
 }
 
-.project-footer-container{
+/* .project-footer-container{
   width: 100%;
   height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .skills-container{
   margin-left: 15%;
@@ -201,23 +228,23 @@ body{
   margin-bottom: 2rem;
   background-color: #1e2738;
   width: 68%;
-  height: 28rem;
+  /* height: 30vh; */
 }
 
 .s-header-container{
-  height: 40%;
+  /* height: 40%; */
 }
 
 .s-header-title{
-  height: 50%;
-  width: max-content;
+  /* height: 50%; */
+  /* width: max-content;
   margin: 0 auto;
   padding-top: 3rem;
-  color: white;
+  color: white; */
 }
 
 .s-header-paragraph{
-  height: 50%;
+  /* height: 50%; */
   width: 60%;
   padding-top: 1.4rem;
   color: #a5b3ce;
@@ -227,21 +254,21 @@ body{
 }
 
 .s-body-container{
-  height: 45%;
+  /* height: 45%; */
 }
 
 .s-footer-container{
-  height: 15%;
-  width: 100%;
+  /* height: 15%; */
+  /* width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .s-body-logos{
   /* background-color: red; */
   width: 40%;
-  height: 80%;
+  /* height: 80%; */
   padding-top: 3%;
   margin: 0 auto;
 }
@@ -254,7 +281,7 @@ body{
 
 .s-logos-first, .s-logos-second{
   width: 100%;
-  height: 50%;
+  /* height: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -270,40 +297,58 @@ body{
 }
 
 .p-container{
+  padding-top: 1rem;
   /* background-color: red; */
   width: 90%;
-  height: 100%;
+  /* height: 100%; */
   margin: 0 auto;
   display: flex;
 }
 
 .p-card{
   padding: 0.4rem;
-  height: 100%;
+  /* height: 100%; */
   width: calc(100% / 3);
+  /* height: 20rem; */
   /* border: 1px solid red; */
   /* background-color: violet; */
 }
 
 .p-image-container{
-  height: 50%;
+  /* height: 40%; */
+  height: 9rem;
   width: 100%;
   /* background-color: white; */
 }
 
 .p-title{
-  height: 13%;
+  /* height: 20%; */
+  /* height: 2rem; */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 0.4rem;
   /* background-color: aqua; */
 }
 
+#fitsports{
+  padding-top: 0.5rem;
+  padding-bottom: 0.8rem;
+}
+
 .p-disc{
-  height: 37%;
+  /* height: 40%; */
   width: 100%;
+  text-align: center;
+  color: #a5b3ce;
+  display: flex;
+  align-items: center;
   /* background-color: antiquewhite; */
+}
+
+.p-disc p{
+  /* margin: auto auto; */
 }
 
 .p-image{

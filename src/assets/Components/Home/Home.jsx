@@ -29,12 +29,12 @@ function Home() {
 
           <div className="featured-projects">
             <div className="project-header-container">
-              <div className="p-header-title">
+              <div className="p-project-title">
                 <h1>
                   Featured Projects
                 </h1>
               </div>
-              <div className="p-header-paragraph">
+              <div className="paragraph">
                 <p>
                 Brief intro goes here. My main experience lies in building lorem ipsum dolor sit amet, consectetur adipiscing elit. I'm currently working on lacinia tristique.
                 </p>
@@ -50,7 +50,9 @@ function Home() {
                     <h6 className="p-name">Social Media Comment Sentiment Analyzer</h6>
                   </div>
                   <div className="p-disc">
-
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ea earum maxime veniam impedit ipsa distinctio dolor cumque exercitationem quaerat.
+                    </p>
                   </div>
                 </div>
 
@@ -62,7 +64,9 @@ function Home() {
                     <h6 className="p-name">YouTube And Spotify Clone with YouTube videos downloader</h6>
                   </div>
                   <div className="p-disc">
-
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ex a obcaecati blanditiis. Libero accusamus temporibus magni rerum fugiat illo!
+                    </p>
                   </div>
                 </div>
 
@@ -71,15 +75,17 @@ function Home() {
                     <img src="Screenshot (729).png" alt="" className="p-image" />
                   </div>
                   <div className="p-title">
-                    <h6 className="p-name">FitSportChamp Website</h6>
+                    <h6 className="p-name" id="fitsports">FitSportChamp Website</h6>
                   </div>
                   <div className="p-disc">
-
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius eligendi dicta, ipsum cumque nulla minus earum cupiditate maiores maxime.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="project-footer-container">
+            <div className="paragraph-button-container">
               <div className="button">
                   <NavLink to="/projects" style={{ textDecoration: "none", color: "inherit" }}>
                   <h5 className="button-text">More Projects <i class="fa-solid fa-arrow-right"></i> </h5> 
@@ -90,12 +96,12 @@ function Home() {
 
           <div className="skills-container">
             <div className="s-header-container">
-              <div className="s-header-title">
+              <div className="p-project-title">
                 <h1>
                   Skills
                 </h1>
               </div>
-              <div className="s-header-paragraph">
+              <div className="paragraph">
                 <p>
                   Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. You can replace or add more tech icons below to reflect your skillset.
                 </p>
@@ -139,7 +145,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="s-footer-container">
+            <div className="paragraph-button-container">
               <div className="button">
                 <NavLink to="/resume" style={{ textDecoration: "none", color: "inherit" }}>
                 <h5 className="button-text">View Resume <i class="fa-solid fa-arrow-right"></i> </h5> 
