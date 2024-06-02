@@ -6,7 +6,7 @@ function Sidebar() {
     <>
         <div className="sidebar-container">
           <div className="sidebar">
-            <NavLink to="/" style={{ textDecoration: "none", color: "inherit" }}>
+            <NavLink to="/" style={({isActive}) => isActive ? { textDecoration: "none", color: "#fe655c" } : { textDecoration:"none", color: "inherit"}}>
             <div className="sidebar-content">
               <div className="sidebar-logo-container">
                 <i class="fa-solid fa-circle-user fa-lg sidebar-logos"></i>
@@ -16,7 +16,7 @@ function Sidebar() {
               </div>
             </div>
             </NavLink>
-            <NavLink to="/projects" style={{ textDecoration: "none", color: "inherit" }}>
+            <NavLink to="/projects" style={({isActive}) => isActive ? { textDecoration: "none", color: "#fe655c" } : { textDecoration:"none", color: "inherit"}}>
             <div className="sidebar-content">
               <div className="sidebar-logo-container">
                 <i class="fa-solid fa-briefcase fa-lg sidebar-logos"></i>
@@ -26,7 +26,7 @@ function Sidebar() {
               </div>
             </div>
             </NavLink>
-            <NavLink to="/resume" style={{ textDecoration: "none", color: "inherit" }}>
+            <NavLink to="/resume" style={({isActive}) => isActive ? { textDecoration: "none", color: "#fe655c" } : { textDecoration:"none", color: "inherit"}}>
             <div className="sidebar-content">
               <div className="sidebar-logo-container">
                 <i class="fa-solid fa-file fa-lg sidebar-logos"></i>
@@ -36,7 +36,7 @@ function Sidebar() {
               </div>
             </div>
             </NavLink>
-            <NavLink to="/contact" style={{ textDecoration: "none", color: "inherit" }}>
+            <NavLink to="/contact" style={({isActive}) => isActive ? { textDecoration: "none", color: "#fe655c" } : { textDecoration:"none", color: "inherit"}}>
             <div className="sidebar-content">
               <div className="sidebar-logo-container">
                 <i class="fa-solid fa-comments fa-lg sidebar-logos"></i>

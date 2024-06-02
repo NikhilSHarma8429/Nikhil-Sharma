@@ -6,16 +6,13 @@ function Resume() {
     <>
       <div className="content-container">
         <div className="header-container" id={ResumeCSS.headerContainer}>
-          <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', maxWidth: '800px', margin: 'auto' }}>
+          <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', width: '80%', margin: 'auto',color: '#a5b3ce' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div>
-            <h1 style={{ margin: '0' }}>Nikhil Sharma</h1>
+            <h1 style={{ margin: '0', color:'white' }}>Nikhil Sharma</h1>
             <p style={{ margin: '0' }}>Kalyanpur Khurd, Kanpur, Uttar Pradesh</p>
             <p style={{ margin: '0' }}>sharma842nikhil@gmail.com</p>
             <p style={{ margin: '0' }}>+91 8429770705</p>
-          </div>
-          <div>
-            <img src="https://path-to-psit-logo" alt="PSIT Logo" style={{ height: '80px' }} />
           </div>
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '10px' }}>
@@ -23,14 +20,14 @@ function Resume() {
           <a href="https://www.linkedin.com/in/nikhil-sharma-4a599221b/" target="_blank"style={{ marginRight: '10px' }}>LinkedIn</a>
           <a href="https://leetcode.com/u/sharma842nikhil/" target="_blank">LeetCode</a>
         </div>
-        <h2>Education</h2>
+        <h2 style={{color: 'white'}}>Education</h2>
         <table style={{ width: '100%', borderCollapse: 'collapse' }}>
           <thead>
             <tr>
-              <th style={{ border: '1px solid black', padding: '8px' }}>Degree/Certificate</th>
-              <th style={{ border: '1px solid black', padding: '8px' }}>Institute/Board</th>
-              <th style={{ border: '1px solid black', padding: '8px' }}>CGPA/Percentage</th>
-              <th style={{ border: '1px solid black', padding: '8px' }}>Year</th>
+              <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>Degree/Certificate</th>
+              <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>Institute/Board</th>
+              <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>CGPA/Percentage</th>
+              <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>Year</th>
             </tr>
           </thead>
           <tbody>
@@ -54,9 +51,9 @@ function Resume() {
             </tr>
           </tbody>
         </table>
-        <h2>Projects</h2>
+        <h2 style={{color: 'white'}}>Projects</h2>
         <div>
-          <h3>Social Media Comments Sentiment Analyzer (Ongoing)</h3>
+          <h3 style={{color: 'white'}}>Social Media Comments Sentiment Analyzer (Ongoing)</h3>
           <p>Enhanced content quality by providing sentiment-based engagement insights between audience and creator.</p>
           <ul>
             <li>Analyze social media comments into different categories and provide ratio of them, comment categories are like Positive Comment, Negative Comment, Neutral Comment.</li>
@@ -66,7 +63,7 @@ function Resume() {
           </ul>
         </div>
         <div>
-          <h3>FitSportChamp Website <a href="https://fitsportchamp.vercel.app/">(Live URL)</a> | <a href="https://github.com/NikhilSHarma8429/fitsportchamp">Github</a></h3>
+          <h3 style={{color: 'white'}}>FitSportChamp Website <a href="https://fitsportchamp.vercel.app/">(Live URL)</a> | <a href="https://github.com/NikhilSHarma8429/fitsportchamp">Github</a></h3>
           <p>Providing users with comprehensive fitness and sports content.</p>
           <ul>
             <li>Developed a project for the GFG Solving for India Hackathon 2023, with participation from over 100 colleges.</li>
@@ -76,7 +73,7 @@ function Resume() {
           </ul>
         </div>
         <div>
-          <h3>YouTube And Spotify Clone with YouTube videos downloader <a href="https://all-in-one-vercel.vercel.app/">(Live URL)</a> | <a href="https://github.com/NikhilSHarma8429/Youtube-And-Spotify-Clone">Github</a></h3>
+          <h3 style={{color: 'white'}}>YouTube And Spotify Clone with YouTube videos downloader <a href="https://all-in-one-vercel.vercel.app/">(Live URL)</a> | <a href="https://github.com/NikhilSHarma8429/Youtube-And-Spotify-Clone">Github</a></h3>
           <p>Built a multifunctional platform for video streaming, downloading, and music playback.</p>
           <ul>
             <li>Designed to replicate YouTube and Spotify functionalities, including video streaming and music playback.</li>
@@ -85,11 +82,11 @@ function Resume() {
             <li>HTML, CSS, JavaScript, and BootStrap.</li>
           </ul>
         </div>
-        <h2>Key Courses Taken</h2>
+        <h2 style={{color: 'white'}}>Key Courses Taken</h2>
         <ul>
           <li>Data Structure, Algorithms, DBMS, Machine Learning, Artificial Intelligence, Web Services, Operating System.</li>
         </ul>
-        <h2>Technical Skills</h2>
+        <h2 style={{color: 'white'}}>Technical Skills</h2>
         <ul>
           <li><strong>Programming:</strong> C/C++, Python, JavaScript, SQL.</li>
           <li><strong>Tools & OS:</strong> Git, Jupyter Notebook, Google Colab, Windows.</li>
@@ -97,7 +94,7 @@ function Resume() {
           <li><strong>Web Skills:</strong> HTML/CSS/JS, ReactJS.</li>
           <li><strong>Databases:</strong> MySql, MongoDB.</li>
         </ul>
-        <h2>Achievements</h2>
+        <h2 style={{color: 'white'}}>Achievements</h2>
         <ul>
           <li>Secured 569th Rank in TCS Codevita Season 11</li>
           <li>Solved Total 600+ Problems including all coding platforms</li>
@@ -105,14 +102,14 @@ function Resume() {
           <li>Achieved a Contest Rating of 1604 on Leetcode, ranking in the top 21% of users</li>
           <li>Global Ranking of 115,080/538,088 in Leetcode</li>
         </ul>
-        <h2>Certifications</h2>
+        <h2 style={{color: 'white'}}>Certifications</h2>
         <ul>
           <li>CSS, JavaScript And Python Complete Course (Udemy)</li>
           <li>JavaScript (Infytq)</li>
           <li>Programming Fundamentals Using Python (Part 1 & Part 2) (Infytq)</li>
           <li>Object Oriented Programming Using Python (Infytq)</li>
         </ul>
-        <h2>Language Known</h2>
+        <h2 style={{color: 'white'}}>Language Known</h2>
         <ul>
           <li>English - Professional Proficiency</li>
           <li>Hindi - Native / Bilingual Proficiency</li>
