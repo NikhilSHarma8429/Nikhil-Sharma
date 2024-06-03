@@ -18,11 +18,11 @@ function Home() {
                 </p>
               </div>
               <div className="paragraph-button-container">
+                <NavLink to="/contact" style={{ textDecoration: "none", color: "inherit" }}>
                 <div className="button">
-                  <NavLink to="/contact" style={{ textDecoration: "none", color: "inherit" }}>
                   <h5 className="button-text">Get in Touch <i class="fa-solid fa-arrow-right"></i> </h5> 
-                  </NavLink>
                 </div>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -86,11 +86,11 @@ function Home() {
               </div>
             </div>
             <div className="paragraph-button-container">
-              <div className="button">
-                  <NavLink to="/projects" style={{ textDecoration: "none", color: "inherit" }}>
-                  <h5 className="button-text">More Projects <i class="fa-solid fa-arrow-right"></i> </h5> 
-                  </NavLink>
-              </div>
+              <NavLink to="/projects" style={{ textDecoration: "none", color: "inherit" }}>
+                <div className="button">
+                    <h5 className="button-text">More Projects <i class="fa-solid fa-arrow-right"></i> </h5> 
+                </div>
+              </NavLink>
             </div>
           </div>
 
@@ -146,11 +146,11 @@ function Home() {
               </div>
             </div>
             <div className="paragraph-button-container">
-              <div className="button">
-                <NavLink to="/resume" style={{ textDecoration: "none", color: "inherit" }}>
-                <h5 className="button-text">View Resume <i class="fa-solid fa-arrow-right"></i> </h5> 
-                </NavLink>
-              </div>
+              <NavLink to="/resume" style={{ textDecoration: "none", color: "inherit" }}>
+                <div className="button">
+                  <h5 className="button-text">View Resume <i class="fa-solid fa-arrow-right"></i> </h5> 
+                </div>
+              </NavLink>
             </div>
           </div>
         </div>

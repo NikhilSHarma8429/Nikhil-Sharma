@@ -99,7 +99,9 @@ function Resume() {
         </ul>
         <h2 style={{color: 'white', paddingTop:'1rem'}}>Achievements</h2>
         <ul>
-          <li>Secured 569th Rank in TCS Codevita Season 11</li>
+          <a href="https://drive.google.com/file/d/1i99w4ZVdTA_L30T4tqPe5hdaXYZTG_YT/view" style={{color:'inherit', textDecoration:'none'}} target="_blank" rel="noopener noreferrer">
+            <li>Secured 569th Rank in TCS Codevita Season 11 <i class="fa-solid fa-link"></i></li>
+          </a>
           <li>Solved Total 600+ Problems including all coding platforms</li>
           <li>Solved 470+ Problems on Leetcode</li>
           <li>Achieved a Contest Rating of 1604 on Leetcode, ranking in the top 21% of users</li>
@@ -107,10 +109,18 @@ function Resume() {
         </ul>
         <h2 style={{color: 'white', paddingTop:'1rem'}}>Certifications</h2>
         <ul>
-          <li>CSS, JavaScript And Python Complete Course (Udemy)</li>
-          <li>JavaScript (Infytq)</li>
-          <li>Programming Fundamentals Using Python (Part 1 & Part 2) (Infytq)</li>
-          <li>Object Oriented Programming Using Python (Infytq)</li>
+          <a href="https://www.udemy.com/certificate/UC-57b9abf8-5336-48f1-9b27-2776e6c2a694/" style={{textDecoration:'none', color:'inherit'}} target="_blank" rel="noopener noreferrer">
+            <li>CSS, JavaScript And Python Complete Course (Udemy)  <i class="fa-solid fa-link"></i></li>
+          </a>
+          <a href="https://drive.google.com/file/d/19OvznhKe0cEmOu1niZJ_H11Fn7-a2cj9/view" style={{textDecoration:'none', color:'inherit'}} target="_blank" rel="noopener noreferrer">
+            <li>JavaScript (Infytq) <i class="fa-solid fa-link"></i></li>
+          </a>
+          <a href="https://drive.google.com/file/d/17ThCDxeEDzlbLeLKSqTkIhawjutFI7JX/view" style={{textDecoration:'none', color:'inherit'}} target="_blank" rel="noopener noreferrer">
+            <li>Programming Fundamentals Using Python (Part 1 & Part 2) (Infytq) <i class="fa-solid fa-link"></i></li>
+          </a>
+          <a href="https://drive.google.com/file/d/1RVjwXZqfgsD2sa0EdSjnwwGIKCKekMGc/view" style={{textDecoration:'none', color:'inherit'}} target="_blank" rel="noopener noreferrer">
+            <li>Object Oriented Programming Using Python (Infytq) <i class="fa-solid fa-link"></i></li>
+          </a>
         </ul>
         <h2 style={{color: 'white', paddingTop:'1rem'}}>Language Known</h2>
         <ul>
@@ -119,12 +129,12 @@ function Resume() {
         </ul>
           </div>
           <div className="paragraph-button-container">
+            <a href="https://drive.google.com/file/d/1FqBPHABjh1xD6eAsw8hIJ3ksjmP5j3mv/view" target='_blank' style={{ textDecoration: "none", color: "inherit" }}>
               <div className="button">
-                  <a href="https://drive.google.com/file/d/1FqBPHABjh1xD6eAsw8hIJ3ksjmP5j3mv/view" target='_blank' style={{ textDecoration: "none", color: "inherit" }}>
                   <h5 className="button-text">PDF View <i class="fa-solid fa-arrow-right"></i> </h5> 
-                  </a>
               </div>
-            </div>
+            </a>
+          </div>
         </div>
       </div>
     </>
