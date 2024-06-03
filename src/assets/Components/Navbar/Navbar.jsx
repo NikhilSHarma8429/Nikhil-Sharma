@@ -6,9 +6,7 @@ function Navbar() {
     <>
         <div className="navbar">
         <div className="left-navbar">
-          <span className="material-icons left-navbar">
-          menu
-          </span>
+          <i class="fa-solid fa-bars fa-lg"></i>
         </div>
         <div className="center-navbar">
           {/* <div className="logo-box"> */}
@@ -23,6 +21,9 @@ function Navbar() {
             </a>
             <a href="https://leetcode.com/u/sharma842nikhil/" target="_blank">
               <i class="cib-leetcode logos"></i>
+            </a>
+            <a href="https://codeforces.com/profile/Nikhil84" target="_blank">
+              <i class="fa-solid fa-chart-simple logos"></i>
             </a>
             {/* <span class="material-symbols-outlined logos test">
 bar_chart

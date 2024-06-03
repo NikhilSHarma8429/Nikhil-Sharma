@@ -27,7 +27,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="featured-projects">
+          <div className="header-container featured-projects">
             <div className="project-header-container">
               <div className="p-project-title">
                 <h1>
@@ -94,7 +94,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="skills-container">
+          <div className="header-container skills-container">
             <div className="s-header-container">
               <div className="p-project-title">
                 <h1>
