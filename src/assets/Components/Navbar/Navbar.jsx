@@ -1,31 +1,47 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { useState } from 'react';
+import { SidebarContext } from '../../Context/SidebarContext';
 
 function Navbar() {
+  const sidebarState = useContext(SidebarContext)
+  const navbarclickHandler = () => {
+    if((Object.keys(sidebarState.style).length === 0 || sidebarState.style.animationName === 'L_to_R') && sidebarState.className == 'sidebar-container'){
+      console.log('closing animation');
+      sidebarState.setstyle({animationName: 'R_to_L', animationDuration: '2s'})
+      sidebarState.setclassName('sidebar-container cross')
+    }
+    else{
+      console.log('opening animation');
+      sidebarState.setstyle({animationName: 'L_to_R', animationDuration: '2s'})
+      sidebarState.setclassName('sidebar-container')
+    }
+  }
+
   return (
     <>
         <div className="navbar">
         <div className="left-navbar">
-          <i class="fa-solid fa-bars fa-lg"></i>
+          <i className='fa-solid fa-bars fa-lg R_to_L' onClick={() => {navbarclickHandler()}}></i>
         </div>
         <div className="center-navbar">
           {/* <div className="logo-box"> */}
             <a href="https://github.com/NikhilSHarma8429" target="_blank">
-              <i class="fa-brands fa-github logos"></i>
+              <i className="fa-brands fa-github logos"></i>
             </a>
             <a href="https://www.linkedin.com/in/nikhil-sharma-4a599221b/" target="_blank">
-             <i class="fa-brands fa-linkedin-in logos"></i>
+             <i className="fa-brands fa-linkedin-in logos"></i>
             </a>
             <a href="mailto:sharma842nikhil@gmail.com" target="_blank">
-             <i class="cib-gmail logos"></i>
+             <i className="cib-gmail logos"></i>
             </a>
             <a href="https://leetcode.com/u/sharma842nikhil/" target="_blank">
-              <i class="cib-leetcode logos"></i>
+              <i className="cib-leetcode logos"></i>
             </a>
             <a href="https://codeforces.com/profile/Nikhil84" target="_blank">
-              <i class="fa-solid fa-chart-simple logos"></i>
+              <i className="fa-solid fa-chart-simple logos"></i>
             </a>
-            {/* <span class="material-symbols-outlined logos test">
+            {/* <span className="material-symbols-outlined logos test">
 bar_chart
 </span> */}
             {/* <img src="leetcode (2).svg" alt="" className="logos test" /> */}

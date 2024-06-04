@@ -8,6 +8,7 @@ import Resume from './assets/Components/Resume/Resume'
 import Projects from './assets/Components/Projects/Projects'
 import Contact from './assets/Components/Contact/Contact'
 import Error from './assets/Components/Error/Error'
+import { SidebarProvider } from './assets/Context/SidebarContext'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,8 +16,10 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
-        <Sidebar />
+        <SidebarProvider>
+          <Navbar />
+          <Sidebar />
+        </SidebarProvider>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/resume" element={<Resume/>} />

@@ -24,21 +24,14 @@ body{
 .center-navbar {
   display: flex;
   justify-content: center;  
-  /* margin-right: 0.6rem; */
   width: 100%;
 }
 
 .logos {
-  display: inline-block; /* Change display to inline-block or block */
+  display: inline-block;
   margin-right: 0.5rem;
-  /* height: 100px;
-  width: 100px; */
-  padding: 1rem; /* Add padding if needed */
-  /* width: 40px;
-  height: 40px; */
-  /* aspect-ratio: 1/1; */
+  padding: 1rem;
   background-color: #161d29;
-  /* border: 1px solid #161d29;  */
   border-radius: 3rem;
   color: #a5b3ce;
 }
@@ -46,6 +39,10 @@ body{
 .test{
   height: 50px;
   width: 50px;
+}
+
+.fa-bars:hover{
+  cursor: pointer;
 }
 
 .sidebar-container{
@@ -59,10 +56,36 @@ body{
     position: fixed; 
     top: 3.6rem; 
     left: 0; 
+  /* animation-name: test;
+  animation-duration: 3s; */
 }
 
-.sidebar-logos{
+.cross{
+  left: -7rem;
 }
+
+@keyframes R_to_L{
+  from{
+    left:0;
+  }
+  to{
+    left:-7rem;
+  }
+}
+
+@keyframes L_to_R{
+  from{
+    left:-7rem;
+  }
+  to{
+    left:0rem;
+  }
+}
+
+#cross-bar:hover{
+  color: #fe655c;
+}
+
 
 .sidebar-content{
   padding: 1rem;
@@ -70,15 +93,10 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* color: white; */
-  /* display: block; */
-  /* margin-bottom: 1.5rem; */
-  /* background-color: #ce0e17; */
+  cursor: pointer;
 }
 
 .sidebar{
-  /* padding: 0.5rem; */
-  /* position:absolute; */
   height: max-content;
   background-color: #161d29;
   color: #a5b3ce;
@@ -109,22 +127,12 @@ body{
 
 .header-heading{
   color: #ffffff;
-  /* height: 45%; */
-  /* margin: 0 auto; */
-  /* margin-top: 2rem; */
-  /* display: flex;
-  justify-content: center; */
-}
-
-.header-title{
-  /* margin-top: 20rem; */
 }
 
 .header-title h1{
   width: max-content;
   margin: 0 auto;
   padding-top: 4rem;
-  /* margin-top: 8%; */
 }
 
 .header-paragraph{
@@ -134,7 +142,6 @@ body{
 
 .paragraph{
   width: 70%;
-  /* height: 40%; */
   text-align: center;
   margin: 0 auto;
   padding-top: 1rem;
@@ -144,7 +151,6 @@ body{
 
 .paragraph-button-container{
   width: 100%;
-  /* height: 60%; */
   padding: 1rem 0;
   display: flex;
   justify-content: center;
@@ -162,7 +168,6 @@ body{
 }
 
 .button-text{
-  /* color: wheat; */
   width: max-content;
   margin-left: auto;
   margin-right: auto;
@@ -177,19 +182,6 @@ body{
   margin-bottom: 2rem;
 }
 
-.project-header-container{
-  /* height: 30%; */
-}
-
-.p-header-title{
-  /* height: 50%;
-  width: max-content;
-  margin: 0 auto;
-  padding-top: 3rem;
-  color: white; 
-  font-weight:bold; */
-}
-
 .p-project-title h1{
   color: white;
   width: max-content;
@@ -197,42 +189,7 @@ body{
   padding-top: 1.5rem;
 }
 
-.p-header-paragraph{
-  /* height: 50%;
-  width: 60%;
-  padding-top: 1rem;
-  color: #a5b3ce;
-  font-family: "Inter", sans-serif;
-  margin: 0 auto;
-  text-align: center; */
-}
-
-.project-body-container{
-  /* height: 55%; */
-}
-
-/* .project-footer-container{
-  width: 100%;
-  height: 15%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-.s-header-container{
-  /* height: 40%; */
-}
-
-.s-header-title{
-  /* height: 50%; */
-  /* width: max-content;
-  margin: 0 auto;
-  padding-top: 3rem;
-  color: white; */
-}
-
 .s-header-paragraph{
-  /* height: 50%; */
   width: 60%;
   padding-top: 1.4rem;
   color: #a5b3ce;
@@ -241,22 +198,8 @@ body{
   text-align: center;
 }
 
-.s-body-container{
-  /* height: 45%; */
-}
-
-.s-footer-container{
-  /* height: 15%; */
-  /* width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-
 .s-body-logos{
-  /* background-color: red; */
   width: 40%;
-  /* height: 80%; */
   padding-top: 3%;
   margin: 0 auto;
 }
@@ -264,12 +207,10 @@ body{
 .s-logos{
   width: 3rem;
   aspect-ratio: 2/2;
-  /* mix-blend-mode: color-burn; */
 }
 
 .s-logos-first, .s-logos-second{
   width: 100%;
-  /* height: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -277,47 +218,33 @@ body{
 
 .s-logos-container{
   width: 20%;
-  /* height: 100%;
-  width: 20%; */
-  /* margin: auto auto; */
   display: flex;
   justify-content: center;
 }
 
 .p-container{
   padding-top: 1rem;
-  /* background-color: red; */
   width: 90%;
-  /* height: 100%; */
   margin: 0 auto;
   display: flex;
 }
 
 .p-card{
   padding: 0.4rem;
-  /* height: 100%; */
   width: calc(100% / 3);
-  /* height: 20rem; */
-  /* border: 1px solid red; */
-  /* background-color: violet; */
 }
 
 .p-image-container{
-  /* height: 40%; */
   height: 9rem;
   width: 100%;
-  /* background-color: white; */
 }
 
 .p-title{
-  /* height: 20%; */
-  /* height: 2rem; */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 0.4rem;
-  /* background-color: aqua; */
 }
 
 #fitsports{
@@ -326,17 +253,11 @@ body{
 }
 
 .p-disc{
-  /* height: 40%; */
   width: 100%;
   text-align: center;
   color: #a5b3ce;
   display: flex;
   align-items: center;
-  /* background-color: antiquewhite; */
-}
-
-.p-disc p{
-  /* margin: auto auto; */
 }
 
 .p-image{
