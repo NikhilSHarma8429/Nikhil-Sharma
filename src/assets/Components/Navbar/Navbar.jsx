@@ -6,7 +6,10 @@ import { SidebarContext } from '../../Context/SidebarContext';
 function Navbar() {
   const sidebarState = useContext(SidebarContext)
   const navbarclickHandler = () => {
-    if((Object.keys(sidebarState.style).length === 0 || sidebarState.style.animationName === 'L_to_R') && sidebarState.className == 'sidebar-container'){
+    if(sidebarState.className == 'sidebar-container cross'){
+      sidebarState.setclassName('sidebar-container')
+    }
+    else if(Object.keys(sidebarState.style).length === 0 || sidebarState.style.animationName === 'L_to_R'){
       console.log('closing animation');
       sidebarState.setstyle({animationName: 'R_to_L', animationDuration: '2s'})
       sidebarState.setclassName('sidebar-container cross')

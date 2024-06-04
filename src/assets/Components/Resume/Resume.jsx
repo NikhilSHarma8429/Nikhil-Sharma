@@ -6,7 +6,7 @@ function Resume() {
     <>
       <div className="content-container">
         <div className="header-container" id={ResumeCSS.headerContainer}>
-          <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', paddingBottom:'0', width: '80%', margin: 'auto',color: '#a5b3ce' }}>
+          <div style={{padding: '20px', paddingBottom:'0', width: '80%', margin: 'auto',color: '#a5b3ce' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div>
             <h1 style={{ margin: '0', color:'white' }}>Nikhil Sharma</h1>
