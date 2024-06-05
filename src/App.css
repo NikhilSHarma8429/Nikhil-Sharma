@@ -392,6 +392,9 @@ body{
     margin-left: 2rem;
   }
   .sidebar-content{
-    padding: 0.8rem;
+    padding: 0.8em;
+  }
+  .sidebar-container{
+    top:36rem;
   }
 }
