@@ -56,8 +56,9 @@ body{
   justify-content: center;
   align-items: center;
     position: fixed; 
-    top: 3.6rem; 
+    /* top: 3.6rem;  */
     left: 0; 
+    bottom: 0;
   /* animation-name: test;
   animation-duration: 3s; */
 }
@@ -309,7 +310,10 @@ body{
     /* justify-content: center; */
     /* height: 95vh; */
     height: max-content;
-    top: 35.5rem;
+    /* top: 35.5rem; */
+    /* left: 0; */
+    /* top: 0; */
+    /* bottom: 0; */
     margin: 0 0;
     /* align-items: flex-end; */
     /* padding-bottom: 1.5rem; */
@@ -391,10 +395,10 @@ body{
   .left-navbar{
     margin-left: 2rem;
   }
-  .sidebar-content{
+  /* .sidebar-content{
     padding: 0.8em;
   }
   .sidebar-container{
     top:36rem;
-  }
+  } */
 }
