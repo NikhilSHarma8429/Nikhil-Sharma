@@ -9,3 +9,16 @@
     width: 100%;
     /* margin-left: auto; */
 }
+
+.table{
+    width: 100%;
+    /* width: rem; */
+    /* width: 20rem; */
+    overflow-y: auto;
+}
+
+/* @media screen and (max-width: 930px){
+  .table{
+    overflow-y: scroll;
+  }
+} */

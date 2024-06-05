@@ -16,6 +16,7 @@ body{
 }
 
 .left-navbar{
+  position: absolute;
   margin-right: auto;
   margin-left: 2.6rem;
   color: #a5b3ce  ;
@@ -25,6 +26,7 @@ body{
   display: flex;
   justify-content: center;  
   width: 100%;
+  /* margin-left: 18rem; */
 }
 
 .logos {
@@ -270,4 +272,126 @@ body{
   text-align: center;
   color: #d7dde9;
   font-size: large;
+}
+
+
+@media screen and (max-width: 884px){
+  .s-body-logos{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 827px){
+  .p-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .p-card{
+    width: 80%;
+  }
+  .p-image-container{
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 729px){
+  .s-body-logos{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 630px){
+  .sidebar-container{
+    flex-direction: row;
+    width: 100%;
+    left: 0;
+    /* height: max-content; */
+    /* justify-content: center; */
+    /* height: 95vh; */
+    height: max-content;
+    top: 35.5rem;
+    margin: 0 0;
+    /* align-items: flex-end; */
+    /* padding-bottom: 1.5rem; */
+    /* top: auto; */
+  }
+
+  .sidebar{
+    display: flex;
+    /* width: 80%; */
+  }
+
+  .content-container{
+    margin-bottom: 5rem;
+  }
+
+  @keyframes R_to_L{
+    from{
+      top:35.5rem;
+    }
+    to{
+      top:40rem;
+    }
+  }
+  
+  @keyframes L_to_R{
+    from{
+      top:40rem;
+    }
+    to{
+      top: 35.5rem;
+    }
+  }
+
+  .cross{
+    top:40rem;
+  }
+}
+
+@media screen and (max-width: 530px){
+  .s-body-logos{
+    width: 80%;
+  }
+  .s-logos{
+    width: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 497px){
+  .p-container{
+    width: 100%;
+  }
+  .header-container{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 421px){
+  .logos{
+    padding: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 384px){
+  .left-navbar{
+    left: -1rem;
+  }
+  .s-logos{
+    width: 2rem;
+  }
+  .header-container{
+    width: 90%;
+  }
+  .logos{
+    padding: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 339px){
+  .left-navbar{
+    margin-left: 2rem;
+  }
+  .sidebar-content{
+    padding: 0.8rem;
+  }
 }

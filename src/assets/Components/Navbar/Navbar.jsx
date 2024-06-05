@@ -11,7 +11,10 @@ function Navbar() {
     }
     else if(Object.keys(sidebarState.style).length === 0 || sidebarState.style.animationName === 'L_to_R'){
       console.log('closing animation');
-      sidebarState.setstyle({animationName: 'R_to_L', animationDuration: '2s', left:'-7rem'})
+      if(window.innerWidth < 630)
+        sidebarState.setstyle({animationName: 'R_to_L', animationDuration: '2s', top:'40rem'})
+      else
+        sidebarState.setstyle({animationName: 'R_to_L', animationDuration: '2s', left:'-7rem'})
       // sidebarState.setclassName('sidebar-container cross')
     }
     else{

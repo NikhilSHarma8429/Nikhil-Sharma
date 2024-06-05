@@ -21,36 +21,38 @@ function Resume() {
           <a href="https://leetcode.com/u/sharma842nikhil/" target="_blank" style={{textDecoration:'none', color:'#fe655c'}}>LeetCode <i class="fa-solid fa-link"></i></a>
         </div>
         <h2 style={{color: 'white', paddingTop:'1rem'}}>Education</h2>
-        <table style={{ width: '100%', borderCollapse: 'collapse', marginTop:'0.5rem'}}>
-          <thead>
-            <tr>
-              <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>Degree/Certificate</th>
-              <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>Institute/Board</th>
-              <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>CGPA/Percentage</th>
-              <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>Year</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style={{ border: '1px solid black', padding: '8px' }}>B.Tech. (CSE)</td>
-              <td style={{ border: '1px solid black', padding: '8px' }}>Pranveer Singh Institute of Technology, Kanpur</td>
-              <td style={{ border: '1px solid black', padding: '8px' }}>7.5</td>
-              <td style={{ border: '1px solid black', padding: '8px' }}>2021-2025</td>
-            </tr>
-            <tr>
-              <td style={{ border: '1px solid black', padding: '8px' }}>Class XII</td>
-              <td style={{ border: '1px solid black', padding: '8px' }}>Gaurav Memorial International School (CBSE)</td>
-              <td style={{ border: '1px solid black', padding: '8px' }}>84.6%</td>
-              <td style={{ border: '1px solid black', padding: '8px' }}>2020</td>
-            </tr>
-            <tr>
-              <td style={{ border: '1px solid black', padding: '8px' }}>Class X</td>
-              <td style={{ border: '1px solid black', padding: '8px' }}>Gaurav Memorial International School (CBSE)</td>
-              <td style={{ border: '1px solid black', padding: '8px' }}>85.2%</td>
-              <td style={{ border: '1px solid black', padding: '8px' }}>2018</td>
-            </tr>
-          </tbody>
-        </table>
+        <div className={ResumeCSS.table}>
+          <table style={{width:'100%', borderCollapse: 'collapse', marginTop:'0.5rem'}}>
+            <thead>
+              <tr>
+                <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>Degree/Certificate</th>
+                <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>Institute/Board</th>
+                <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>CGPA/Percentage</th>
+                <th style={{ border: '1px solid black', padding: '8px', color:'white' }}>Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>B.Tech. (CSE)</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Pranveer Singh Institute of Technology, Kanpur</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>7.5</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>2021-2025</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Class XII</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Gaurav Memorial International School (CBSE)</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>84.6%</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>2020</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Class X</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Gaurav Memorial International School (CBSE)</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>85.2%</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>2018</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <h2 style={{color: 'white', paddingTop:'1rem'}}>Projects</h2>
         <div>
           <div style={{display:'flex', color: 'white', paddingTop:'0.5rem'}}>

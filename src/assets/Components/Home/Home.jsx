@@ -14,7 +14,7 @@ function Home() {
             <div className="header-paragraph">
               <div className="paragraph">
                 <p>
-                  3rd-year B.Tech student with a strongpassion for coding and a solid grasp ofdata structures and algorithms. I'mcommitted to learning, staying updated,and pursuing internships to contribute tosoftware development.
+                  3rd-year B.Tech student with a strong passion for coding and a solid grasp of data structures and algorithms. I'm committed to learning, staying updated, and pursuing internships to contribute to software development.
                 </p>
               </div>
               <div className="paragraph-button-container">
