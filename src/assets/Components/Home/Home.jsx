@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import Projects from '../Projects/Projects'
 
 function Home() {
   return (
@@ -41,8 +42,9 @@ function Home() {
               </div>
             </div>
             <div className="project-body-container">
-              <div className="p-container">
-                <div className="p-card">
+              {/* <div className="p-container">
+
+                <div className="p-card p-visible p-visible-1">
                   <div className="p-image-container">
                     <img src="25516.jpg" alt="" className="p-image" />
                   </div>
@@ -56,7 +58,13 @@ function Home() {
                   </div>
                 </div>
 
-                <div className="p-card">
+                <div className="p-card p-hidden p-first">
+                  <div className="hidden-btn-container">
+                    <h3>View More</h3>
+                  </div>
+                </div>
+
+                <div className="p-card p-visible p-visible-2">
                   <div className="p-image-container">
                     <img src="Screenshot (730).png" alt="" className="p-image" />
                   </div>
@@ -70,7 +78,13 @@ function Home() {
                   </div>
                 </div>
 
-                <div className="p-card">
+                <div className="p-card p-hidden p-second">
+                  <div className="hidden-btn-container">
+                    <h3>View More</h3>
+                  </div>
+                </div>
+
+                <div className="p-card p-visible p-visible-3">
                   <div className="p-image-container">
                     <img src="Screenshot (729).png" alt="" className="p-image" />
                   </div>
@@ -83,7 +97,80 @@ function Home() {
                     </p>
                   </div>
                 </div>
-              </div>
+
+                <div className="p-card p-hidden p-third">
+                  <div className="hidden-btn-container">
+                    <h3>View More</h3>
+                  </div>
+                </div>
+              </div> */}
+
+<div className="p-container">
+  <div className="p-card p-visible-1">
+    <div className="p-visible">
+      <div className="p-image-container">
+        <img src="25516.jpg" alt="" className="p-image" />
+      </div>
+      <div className="p-title">
+        <h6 className="p-name">Social Media Comment Sentiment Analyzer</h6>
+      </div>
+      <div className="p-disc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ea earum maxime veniam impedit ipsa distinctio dolor cumque exercitationem quaerat.</p>
+      </div>
+    </div>
+    <div className="p-hidden p-first">
+      <NavLink to="/Projects" style={{textDecoration: 'none'}}>
+        <div className="hidden-btn-container">
+          <h3>View More</h3>
+        </div>
+      </NavLink>
+    </div>
+  </div>
+
+  <div className="p-card p-visible-2">
+    <div className="p-visible">
+      <div className="p-image-container">
+        <img src="Screenshot (730).png" alt="" className="p-image" />
+      </div>
+      <div className="p-title">
+        <h6 className="p-name">YouTube And Spotify Clone with YouTube videos downloader</h6>
+      </div>
+      <div className="p-disc">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ex a obcaecati blanditiis. Libero accusamus temporibus magni rerum fugiat illo!</p>
+      </div>
+    </div>
+    <div className="p-hidden p-second">
+      <NavLink to="/Projects" style={{textDecoration: 'none'}}>
+        <div className="hidden-btn-container">
+          <h3>View More</h3>
+        </div>
+      </NavLink>
+    </div>
+  </div>
+
+  <div className="p-card p-visible-3">
+    <div className="p-visible">
+      <div className="p-image-container">
+        <img src="Screenshot (729).png" alt="" className="p-image" />
+      </div>
+      <div className="p-title">
+        <h6 className="p-name" id="fitsports">FitSportChamp Website</h6>
+      </div>
+      <div className="p-disc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius eligendi dicta, ipsum cumque nulla minus earum cupiditate maiores maxime.</p>
+      </div>
+    </div>
+    <div className="p-hidden p-third">
+      <NavLink to="/Projects" style={{textDecoration: 'none'}}>
+        <div className="hidden-btn-container">
+          <h3>View More</h3>
+        </div>
+      </NavLink>
+    </div>
+  </div>
+</div>
+
+
             </div>
             <div className="paragraph-button-container">
               <NavLink to="/projects" style={{ textDecoration: "none", color: "inherit" }}>

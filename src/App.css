@@ -57,6 +57,7 @@ body{
   align-items: center;
     position: fixed; 
     /* top: 3.6rem;  */
+  
     left: 0; 
     /* bottom: 0; */
   /* animation-name: test;
@@ -230,12 +231,47 @@ body{
   width: 90%;
   margin: 0 auto;
   display: flex;
+  position: relative;
 }
 
 .p-card{
+  z-index: 1;
+  position: relative;
   padding: 0.4rem;
   width: calc(100% / 3);
 }
+
+.p-hidden{
+  position: absolute;
+  color: red;
+  z-index: -1; 
+  /* opacity: 0; */
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-card:hover .p-visible{
+  filter: blur(5px);
+}
+
+.p-visible-1:hover .p-first, .p-visible-2:hover .p-second, .p-visible-3:hover .p-third {
+  z-index: 2; 
+  opacity: 1;
+}
+
+.hidden-btn-container{
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: rgb(254, 101, 92);
+  color: white;
+}
+
 
 .p-image-container{
   height: 9rem;
@@ -275,6 +311,17 @@ body{
   font-size: large;
 }
 
+.p-container{
+  position: relative;
+}
+
+/* .p-second{
+  left: calc(100% / 3);
+}
+
+.p-third{
+  left: calc(2 * 100% / 3);
+} */
 
 @media screen and (max-width: 884px){
   .s-body-logos{
@@ -308,6 +355,7 @@ body{
     left: 0;
     height: max-content;
     bottom: 0;
+    z-index: 3;
     /* bottom: -4.5rem; */
     margin: 0 0;
   }
