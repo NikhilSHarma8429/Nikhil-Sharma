@@ -16,9 +16,9 @@ function Resume() {
           </div>
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '10px' }}>
-          <a href="https://github.com/NikhilSHarma8429" target="_blank" style={{ marginRight: '10px', textDecoration:'none', color:'#fe655c'}}>GitHub <i class="fa-solid fa-link"></i></a>
-          <a href="https://www.linkedin.com/in/nikhil-sharma-4a599221b/" target="_blank" style={{ marginRight: '10px', textDecoration:'none', color:'#fe655c'}}>LinkedIn <i class="fa-solid fa-link"></i></a>
-          <a href="https://leetcode.com/u/sharma842nikhil/" target="_blank" style={{textDecoration:'none', color:'#fe655c'}}>LeetCode <i class="fa-solid fa-link"></i></a>
+          <a href="https://github.com/NikhilSHarma8429" target="_blank" style={{ marginRight: '10px', textDecoration:'none', color:'#fe655c'}}>GitHub <i className="fa-solid fa-link"></i></a>
+          <a href="https://www.linkedin.com/in/nikhil-sharma-4a599221b/" target="_blank" style={{ marginRight: '10px', textDecoration:'none', color:'#fe655c'}}>LinkedIn <i className="fa-solid fa-link"></i></a>
+          <a href="https://leetcode.com/u/sharma842nikhil/" target="_blank" style={{textDecoration:'none', color:'#fe655c'}}>LeetCode <i className="fa-solid fa-link"></i></a>
         </div>
         <h2 style={{color: 'white', paddingTop:'1rem'}}>Education</h2>
         <div className={ResumeCSS.table}>
@@ -68,7 +68,7 @@ function Resume() {
           </ul>
         </div>
         <div>
-          <h3 style={{color: 'white', paddingTop:'0.5rem'}}>FitSportChamp Website <a href="https://fitsportchamp.vercel.app/" target="_blank" style={{color:'#fe655c', textDecoration:'none',fontSize:'1rem'}}>Live URL <i class="fa-solid fa-link"></i></a> | <a href="https://github.com/NikhilSHarma8429/fitsportchamp" target="_blank" style={{color:'#fe655c', textDecoration:'none',fontSize:'1rem'}}>Github <i class="fa-solid fa-link"></i></a></h3>
+          <h3 style={{color: 'white', paddingTop:'0.5rem'}}>FitSportChamp Website <a href="https://fitsportchamp.vercel.app/" target="_blank" style={{color:'#fe655c', textDecoration:'none',fontSize:'1rem'}}>Live URL <i className="fa-solid fa-link"></i></a> | <a href="https://github.com/NikhilSHarma8429/fitsportchamp" target="_blank" style={{color:'#fe655c', textDecoration:'none',fontSize:'1rem'}}>Github <i className="fa-solid fa-link"></i></a></h3>
           <p>Providing users with comprehensive fitness and sports content.</p>
           <ul style={{paddingTop:'0.3rem'}}>
             <li>Developed a project for the GFG Solving for India Hackathon 2023, with participation from over 100 colleges.</li>
@@ -78,7 +78,7 @@ function Resume() {
           </ul>
         </div>
         <div>
-          <h3 style={{color: 'white', paddingTop:'0.5rem'}}>YouTube And Spotify Clone with YouTube videos downloader <a href="https://all-in-one-vercel.vercel.app/" target="_blank" style={{color:'#fe655c', textDecoration:'none',fontSize:'1rem'}}>Live URL <i class="fa-solid fa-link"></i></a> | <a href="https://github.com/NikhilSHarma8429/Youtube-And-Spotify-Clone" target="_blank" style={{color:'#fe655c', textDecoration:'none',fontSize:'1rem'}}>Github <i class="fa-solid fa-link"></i></a></h3>
+          <h3 style={{color: 'white', paddingTop:'0.5rem'}}>YouTube And Spotify Clone with YouTube videos downloader <a href="https://all-in-one-vercel.vercel.app/" target="_blank" style={{color:'#fe655c', textDecoration:'none',fontSize:'1rem'}}>Live URL <i className="fa-solid fa-link"></i></a> | <a href="https://github.com/NikhilSHarma8429/Youtube-And-Spotify-Clone" target="_blank" style={{color:'#fe655c', textDecoration:'none',fontSize:'1rem'}}>Github <i className="fa-solid fa-link"></i></a></h3>
           <p>Built a multifunctional platform for video streaming, downloading, and music playback.</p>
           <ul style={{paddingTop:'0.3rem'}}>
             <li>Designed to replicate YouTube and Spotify functionalities, including video streaming and music playback.</li>
@@ -102,7 +102,7 @@ function Resume() {
         <h2 style={{color: 'white', paddingTop:'1rem'}}>Achievements</h2>
         <ul>
           <a href="https://drive.google.com/file/d/1i99w4ZVdTA_L30T4tqPe5hdaXYZTG_YT/view" style={{color:'inherit', textDecoration:'none'}} target="_blank" rel="noopener noreferrer">
-            <li>Secured 569th Rank in TCS Codevita Season 11 <i class="fa-solid fa-link"></i></li>
+            <li>Secured 569th Rank in TCS Codevita Season 11 <i className="fa-solid fa-link"></i></li>
           </a>
           <li>Solved Total 600+ Problems including all coding platforms</li>
           <li>Solved 470+ Problems on Leetcode</li>
@@ -112,16 +112,16 @@ function Resume() {
         <h2 style={{color: 'white', paddingTop:'1rem'}}>Certifications</h2>
         <ul>
           <a href="https://www.udemy.com/certificate/UC-57b9abf8-5336-48f1-9b27-2776e6c2a694/" style={{textDecoration:'none', color:'inherit'}} target="_blank" rel="noopener noreferrer">
-            <li>CSS, JavaScript And Python Complete Course (Udemy)  <i class="fa-solid fa-link"></i></li>
+            <li>CSS, JavaScript And Python Complete Course (Udemy)  <i className="fa-solid fa-link"></i></li>
           </a>
           <a href="https://drive.google.com/file/d/19OvznhKe0cEmOu1niZJ_H11Fn7-a2cj9/view" style={{textDecoration:'none', color:'inherit'}} target="_blank" rel="noopener noreferrer">
-            <li>JavaScript (Infytq) <i class="fa-solid fa-link"></i></li>
+            <li>JavaScript (Infytq) <i className="fa-solid fa-link"></i></li>
           </a>
           <a href="https://drive.google.com/file/d/17ThCDxeEDzlbLeLKSqTkIhawjutFI7JX/view" style={{textDecoration:'none', color:'inherit'}} target="_blank" rel="noopener noreferrer">
-            <li>Programming Fundamentals Using Python (Part 1 & Part 2) (Infytq) <i class="fa-solid fa-link"></i></li>
+            <li>Programming Fundamentals Using Python (Part 1 & Part 2) (Infytq) <i className="fa-solid fa-link"></i></li>
           </a>
           <a href="https://drive.google.com/file/d/1RVjwXZqfgsD2sa0EdSjnwwGIKCKekMGc/view" style={{textDecoration:'none', color:'inherit'}} target="_blank" rel="noopener noreferrer">
-            <li>Object Oriented Programming Using Python (Infytq) <i class="fa-solid fa-link"></i></li>
+            <li>Object Oriented Programming Using Python (Infytq) <i className="fa-solid fa-link"></i></li>
           </a>
         </ul>
         <h2 style={{color: 'white', paddingTop:'1rem'}}>Language Known</h2>
@@ -133,7 +133,7 @@ function Resume() {
           <div className="paragraph-button-container">
             <a href="https://drive.google.com/file/d/1FqBPHABjh1xD6eAsw8hIJ3ksjmP5j3mv/view" target='_blank' style={{ textDecoration: "none", color: "inherit" }}>
               <div className="button">
-                  <h5 className="button-text">PDF View <i class="fa-solid fa-arrow-right"></i> </h5> 
+                  <h5 className="button-text">PDF View <i className="fa-solid fa-arrow-right"></i> </h5> 
               </div>
             </a>
           </div>

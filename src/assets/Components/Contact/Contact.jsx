@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
       <div className="content-container">
-          <div className="header-container" id={ResumeCSS.headerContainer}>
+          <div className="header-container" id={ResumeCSS.headerContainer} style={{marginBottom: '2rem'}}>
             <div className="header-heading" id={ResumeCSS.headerHeading}>
               <div className="header-title" id={ResumeCSS.headerTitle}>
                 <h1>Get In Touch</h1>

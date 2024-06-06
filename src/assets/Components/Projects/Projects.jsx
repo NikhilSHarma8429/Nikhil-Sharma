@@ -20,7 +20,7 @@ function Projects() {
               <div className="paragraph-button-container">
                 <div className="button">
                   <NavLink to="/contact" style={{ textDecoration: "none", color: "inherit" }}>
-                  <h5 className="button-text">Get in Touch <i class="fa-solid fa-arrow-right"></i> </h5> 
+                  <h5 className="button-text">Get in Touch <i className="fa-solid fa-arrow-right"></i> </h5> 
                   </NavLink>
                 </div>
               </div>
@@ -88,7 +88,7 @@ function Projects() {
             <div className="paragraph-button-container">
               <div className="button">
                   <NavLink to="/projects" style={{ textDecoration: "none", color: "inherit" }}>
-                  <h5 className="button-text">More Projects <i class="fa-solid fa-arrow-right"></i> </h5> 
+                  <h5 className="button-text">More Projects <i className="fa-solid fa-arrow-right"></i> </h5> 
                   </NavLink>
               </div>
             </div>
