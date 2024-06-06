@@ -58,7 +58,7 @@ body{
     position: fixed; 
     /* top: 3.6rem;  */
     left: 0; 
-    bottom: 0;
+    /* bottom: 0; */
   /* animation-name: test;
   animation-duration: 3s; */
 }
@@ -306,18 +306,10 @@ body{
     flex-direction: row;
     width: 100%;
     left: 0;
-    /* height: max-content; */
-    /* justify-content: center; */
-    /* height: 95vh; */
     height: max-content;
-    /* top: 35.5rem; */
-    /* left: 0; */
-    /* top: 0; */
-    /* bottom: 0; */
+    bottom: 0;
+    /* bottom: -4.5rem; */
     margin: 0 0;
-    /* align-items: flex-end; */
-    /* padding-bottom: 1.5rem; */
-    /* top: auto; */
   }
 
   .sidebar{
@@ -331,19 +323,19 @@ body{
 
   @keyframes R_to_L{
     from{
-      top:35.5rem;
+      bottom: 0;
     }
     to{
-      top:40rem;
+      bottom: -4.5rem;
     }
   }
   
   @keyframes L_to_R{
     from{
-      top:40rem;
+      bottom: -4.5rem;
     }
     to{
-      top: 35.5rem;
+      bottom: 0;
     }
   }
 
