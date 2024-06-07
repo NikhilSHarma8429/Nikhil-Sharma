@@ -448,6 +448,7 @@ body{
     padding: 0.5rem;
   }
   .sidebar-container{
-    bottom: 0.5rem;
+    height: 75vh;
+    /* bottom: 0.5rem; */
   }
 }
