@@ -49,7 +49,8 @@ body{
 
 .sidebar-container{
   display: flex;
-  height: 90vh;
+  top: 0;
+  height: 100vh;
   width: max-content;
   margin-left: 1rem;
   flex-direction: column;
@@ -353,6 +354,7 @@ body{
     flex-direction: row;
     width: 100%;
     left: 0;
+    top: revert;
     height: max-content;
     bottom: 0;
     z-index: 3;
@@ -446,9 +448,5 @@ body{
 @media screen and (max-height: 408px){
   .sidebar-content{
     padding: 0.5rem;
-  }
-  .sidebar-container{
-    height: 75vh;
-    /* bottom: 0.5rem; */
   }
 }
