@@ -442,3 +442,12 @@ body{
     top:36rem;
   } */
 }
+
+@media screen and (max-height: 408px){
+  .sidebar-content{
+    padding: 0.5rem;
+  }
+  .sidebar-container{
+    bottom: 0.5rem;
+  }
+}
