@@ -17,6 +17,7 @@ body{
 
 .left-navbar{
   position: absolute;
+  z-index: 2;
   margin-right: auto;
   margin-left: 2.6rem;
   color: #a5b3ce  ;
