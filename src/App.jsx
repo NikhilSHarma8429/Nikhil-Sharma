@@ -31,7 +31,8 @@ function App() {
           <Route path="/projects/commentvibe" element={<Commentvibe/>} />
           <Route path="/projects/fitsportchamp" element={<Fitsportchamp/>} />
           <Route path="/contact" element={<Contact/>} />
-          <Route path="/:id" element={<Error/>} />
+          <Route path="/*" element={<Error/>} />
+          <Route path="/projects/*" element={<Error/>} />
         </Routes>
       </Router>
     </>
