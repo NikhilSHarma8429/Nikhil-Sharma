@@ -119,7 +119,7 @@ function Home() {
       </div>
     </div>
     <div className="p-hidden p-first">
-      <NavLink to="/Projects" style={{textDecoration: 'none'}}>
+      <NavLink to="/Projects/commentvibe" style={{textDecoration: 'none'}}>
         <div className="hidden-btn-container">
           <h3>View More</h3>
         </div>
@@ -140,7 +140,7 @@ function Home() {
       </div>
     </div>
     <div className="p-hidden p-second">
-      <NavLink to="/Projects" style={{textDecoration: 'none'}}>
+      <NavLink to="/Projects/allinone" style={{textDecoration: 'none'}}>
         <div className="hidden-btn-container">
           <h3>View More</h3>
         </div>
@@ -161,7 +161,7 @@ function Home() {
       </div>
     </div>
     <div className="p-hidden p-third">
-      <NavLink to="/Projects" style={{textDecoration: 'none'}}>
+      <NavLink to="/Projects/fitsportchamp" style={{textDecoration: 'none'}}>
         <div className="hidden-btn-container">
           <h3>View More</h3>
         </div>

@@ -8,6 +8,9 @@ import Resume from './assets/Components/Resume/Resume'
 import Projects from './assets/Components/Projects/Projects'
 import Contact from './assets/Components/Contact/Contact'
 import Error from './assets/Components/Error/Error'
+import Allinone from './assets/Components/Projects/All-in-one/Allinone'
+import Fitsportchamp from './assets/Components/Projects/Fitsportchamp/Fitsportchamp'
+import Commentvibe from './assets/Components/Projects/Commentvibe/Commentvibe'
 import { SidebarProvider } from './assets/Context/SidebarContext'
 
 function App() {
@@ -24,6 +27,9 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/resume" element={<Resume/>} />
           <Route path="/projects" element={<Projects/>} />
+          <Route path="/projects/all-in-one" element={<Allinone />} />
+          <Route path="/projects/commentvibe" element={<Commentvibe/>} />
+          <Route path="/projects/fitsportchamp" element={<Fitsportchamp/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/:id" element={<Error/>} />
         </Routes>
