@@ -37,74 +37,12 @@ function Home() {
               </div>
               <div className="paragraph">
                 <p>
-                Brief intro goes here. My main experience lies in building lorem ipsum dolor sit amet, consectetur adipiscing elit. I'm currently working on lacinia tristique.
+                Projects are crucial in a portfolio as they demonstrate practical application of skills and problem-solving abilities. They show clear evidence of your skills, highlighting your ability to achieve real-world results and find innovative solutions.
                 </p>
               </div>
             </div>
             <div className="project-body-container">
-              {/* <div className="p-container">
-
-                <div className="p-card p-visible p-visible-1">
-                  <div className="p-image-container">
-                    <img src="25516.jpg" alt="" className="p-image" />
-                  </div>
-                  <div className="p-title">
-                    <h6 className="p-name">Social Media Comment Sentiment Analyzer</h6>
-                  </div>
-                  <div className="p-disc">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ea earum maxime veniam impedit ipsa distinctio dolor cumque exercitationem quaerat.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="p-card p-hidden p-first">
-                  <div className="hidden-btn-container">
-                    <h3>View More</h3>
-                  </div>
-                </div>
-
-                <div className="p-card p-visible p-visible-2">
-                  <div className="p-image-container">
-                    <img src="Screenshot (730).png" alt="" className="p-image" />
-                  </div>
-                  <div className="p-title">
-                    <h6 className="p-name">YouTube And Spotify Clone with YouTube videos downloader</h6>
-                  </div>
-                  <div className="p-disc">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ex a obcaecati blanditiis. Libero accusamus temporibus magni rerum fugiat illo!
-                    </p>
-                  </div>
-                </div>
-
-                <div className="p-card p-hidden p-second">
-                  <div className="hidden-btn-container">
-                    <h3>View More</h3>
-                  </div>
-                </div>
-
-                <div className="p-card p-visible p-visible-3">
-                  <div className="p-image-container">
-                    <img src="Screenshot (729).png" alt="" className="p-image" />
-                  </div>
-                  <div className="p-title">
-                    <h6 className="p-name" id="fitsports">FitSportChamp Website</h6>
-                  </div>
-                  <div className="p-disc">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius eligendi dicta, ipsum cumque nulla minus earum cupiditate maiores maxime.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="p-card p-hidden p-third">
-                  <div className="hidden-btn-container">
-                    <h3>View More</h3>
-                  </div>
-                </div>
-              </div> */}
-
+              
 <div className="p-container">
   <div className="p-card p-visible-1">
     <div className="p-visible">
@@ -115,7 +53,7 @@ function Home() {
         <h6 className="p-name">Social Media Comment Sentiment Analyzer</h6>
       </div>
       <div className="p-disc">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ea earum maxime veniam impedit ipsa distinctio dolor cumque exercitationem quaerat.</p>
+        <p>Analyze social media comments into different categories and provide ratio of them. Through Machine Learning and Artificial Intelligence provide suggestions for improving the content.</p>
       </div>
     </div>
     <div className="p-hidden p-first">
@@ -136,11 +74,11 @@ function Home() {
         <h6 className="p-name">YouTube And Spotify Clone with YouTube videos downloader</h6>
       </div>
       <div className="p-disc">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ex a obcaecati blanditiis. Libero accusamus temporibus magni rerum fugiat illo!</p>
+        <p>Developed a project for the GFG Solving for India Hackathon 2023, offering diverse reading materials on exercises and sports to enhance user’s physical fitness and diet.</p>
       </div>
     </div>
     <div className="p-hidden p-second">
-      <NavLink to="/Projects/allinone" style={{textDecoration: 'none'}}>
+      <NavLink to="/Projects/all-in-one" style={{textDecoration: 'none'}}>
         <div className="hidden-btn-container">
           <h3>View More</h3>
         </div>
@@ -157,7 +95,7 @@ function Home() {
         <h6 className="p-name" id="fitsports">FitSportChamp Website</h6>
       </div>
       <div className="p-disc">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius eligendi dicta, ipsum cumque nulla minus earum cupiditate maiores maxime.</p>
+        <p>Designed to replicate YouTube and Spotify functionalities, including video streaming and music playback. Enabled users to watch and download YouTube videos, and listen to music seamlessly</p>
       </div>
     </div>
     <div className="p-hidden p-third">
@@ -190,7 +128,7 @@ function Home() {
               </div>
               <div className="paragraph">
                 <p>
-                  Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. You can replace or add more tech icons below to reflect your skillset.
+                The Skills section is essential as it highlights your specific abilities and expertise, making it easy for others to understand your qualifications.
                 </p>
               </div>
             </div>

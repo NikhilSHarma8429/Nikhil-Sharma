@@ -30,6 +30,10 @@ body{
   /* margin-left: 18rem; */
 }
 
+.logos:hover{
+  color: #fe655c
+}
+
 .logos {
   display: inline-block;
   margin-right: 0.5rem;

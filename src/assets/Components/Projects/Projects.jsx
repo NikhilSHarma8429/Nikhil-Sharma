@@ -5,28 +5,6 @@ function Projects() {
   return (
     <>
         <div className="content-container">
-          {/* <div className="header-container">
-            <div className="header-heading">
-              <div className="header-title">
-                <h1>Nikhil Sharma</h1>
-              </div>
-            </div>
-            <div className="header-paragraph">
-              <div className="paragraph">
-                <p>
-                  3rd-year B.Tech student with a strongpassion for coding and a solid grasp ofdata structures and algorithms. I'mcommitted to learning, staying updated,and pursuing internships to contribute tosoftware development.
-                </p>
-              </div>
-              <div className="paragraph-button-container">
-                <div className="button">
-                  <NavLink to="/contact" style={{ textDecoration: "none", color: "inherit" }}>
-                  <h5 className="button-text">Get in Touch <i className="fa-solid fa-arrow-right"></i> </h5> 
-                  </NavLink>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
           <div className="header-container">
             <div className="project-header-container">
               <div className="p-project-title">
