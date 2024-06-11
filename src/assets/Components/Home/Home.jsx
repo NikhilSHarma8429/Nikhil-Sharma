@@ -43,70 +43,70 @@ function Home() {
             </div>
             <div className="project-body-container">
               
-<div className="p-container">
-  <div className="p-card p-visible-1">
-    <div className="p-visible">
-      <div className="p-image-container">
-        <img src="25516.jpg" alt="" className="p-image" />
-      </div>
-      <div className="p-title">
-        <h6 className="p-name">Social Media Comment Sentiment Analyzer</h6>
-      </div>
-      <div className="p-disc">
-        <p>Analyze social media comments into different categories and provide ratio of them. Through Machine Learning and Artificial Intelligence provide suggestions for improving the content.</p>
-      </div>
-    </div>
-    <div className="p-hidden p-first">
-      <NavLink to="/Projects/commentvibe" style={{textDecoration: 'none'}}>
-        <div className="hidden-btn-container">
-          <h3>View More</h3>
-        </div>
-      </NavLink>
-    </div>
-  </div>
+            <div className="p-container">
+              <div className="p-card p-visible-1">
+                <div className="p-visible">
+                  <div className="p-image-container">
+                    <img src="25516.jpg" alt="" className="p-image" />
+                  </div>
+                  <div className="p-title">
+                    <h6 className="p-name">Social Media Comment Sentiment Analyzer</h6>
+                  </div>
+                  <div className="p-disc">
+                    <p>Analyze social media comments into different categories and provide ratio of them. Through Machine Learning and Artificial Intelligence provide suggestions for improving the content.</p>
+                  </div>
+                </div>
+                <div className="p-hidden p-first">
+                  <NavLink to="/Projects/commentvibe" style={{textDecoration: 'none'}}>
+                    <div className="hidden-btn-container">
+                      <h3>View More</h3>
+                    </div>
+                  </NavLink>
+                </div>
+              </div>
 
-  <div className="p-card p-visible-2">
-    <div className="p-visible">
-      <div className="p-image-container">
-        <img src="Screenshot (730).png" alt="" className="p-image" />
-      </div>
-      <div className="p-title">
-        <h6 className="p-name">YouTube And Spotify Clone with YouTube videos downloader</h6>
-      </div>
-      <div className="p-disc">
-        <p>Developed a project for the GFG Solving for India Hackathon 2023, offering diverse reading materials on exercises and sports to enhance user’s physical fitness and diet.</p>
-      </div>
-    </div>
-    <div className="p-hidden p-second">
-      <NavLink to="/Projects/all-in-one" style={{textDecoration: 'none'}}>
-        <div className="hidden-btn-container">
-          <h3>View More</h3>
-        </div>
-      </NavLink>
-    </div>
-  </div>
+              <div className="p-card p-visible-2">
+                <div className="p-visible">
+                  <div className="p-image-container">
+                    <img src="Screenshot (730).png" alt="" className="p-image" />
+                  </div>
+                  <div className="p-title">
+                    <h6 className="p-name">YouTube And Spotify Clone with YouTube videos downloader</h6>
+                  </div>
+                  <div className="p-disc">
+                    <p>Designed to replicate YouTube and Spotify functionalities, including video streaming and music playback. Enabled users to watch and download YouTube videos, and listen to music seamlessly</p>
+                  </div>
+                </div>
+                <div className="p-hidden p-second">
+                  <NavLink to="/Projects/all-in-one" style={{textDecoration: 'none'}}>
+                    <div className="hidden-btn-container">
+                      <h3>View More</h3>
+                    </div>
+                  </NavLink>
+                </div>
+              </div>
 
-  <div className="p-card p-visible-3">
-    <div className="p-visible">
-      <div className="p-image-container">
-        <img src="Screenshot (729).png" alt="" className="p-image" />
-      </div>
-      <div className="p-title">
-        <h6 className="p-name" id="fitsports">FitSportChamp Website</h6>
-      </div>
-      <div className="p-disc">
-        <p>Designed to replicate YouTube and Spotify functionalities, including video streaming and music playback. Enabled users to watch and download YouTube videos, and listen to music seamlessly</p>
-      </div>
-    </div>
-    <div className="p-hidden p-third">
-      <NavLink to="/Projects/fitsportchamp" style={{textDecoration: 'none'}}>
-        <div className="hidden-btn-container">
-          <h3>View More</h3>
-        </div>
-      </NavLink>
-    </div>
-  </div>
-</div>
+              <div className="p-card p-visible-3">
+                <div className="p-visible">
+                  <div className="p-image-container">
+                    <img src="Screenshot (729).png" alt="" className="p-image" />
+                  </div>
+                  <div className="p-title">
+                    <h6 className="p-name" id="fitsports">FitSportChamp Website</h6>
+                  </div>
+                  <div className="p-disc">
+                    <p>Developed a project for the GFG Solving for India Hackathon 2023, offering diverse reading materials on exercises and sports to enhance user’s physical fitness and diet.</p>
+                  </div>
+                </div>
+                <div className="p-hidden p-third">
+                  <NavLink to="/Projects/fitsportchamp" style={{textDecoration: 'none'}}>
+                    <div className="hidden-btn-container">
+                      <h3>View More</h3>
+                    </div>
+                  </NavLink>
+                </div>
+              </div>
+            </div>
 
 
             </div>
@@ -151,7 +151,7 @@ function Home() {
                       <img src="mongodb-icon-2.svg" className="s-logos" alt="" />
                     </div>
                 </div>
-                <div className="s-logos-second">
+                <div className="s-logos-second" style={{marginTop: '0.4rem'}}>
                     <div className="s-logos-container">
                       <img src="logo-javascript.svg" className="s-logos" alt="" />
                     </div>
@@ -159,7 +159,7 @@ function Home() {
                       <img src="github-icon-1.svg" className="s-logos" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="CSS3_logo_and_wordmark.svg" className="s-logos" alt="" />
+                      <img src="w3_css-icon.svg" className="s-logos" alt="" />
                     </div>
                     <div className="s-logos-container">
                       <img src="mysql-official.svg" className="s-logos" alt="" />

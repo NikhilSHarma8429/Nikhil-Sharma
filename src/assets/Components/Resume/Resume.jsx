@@ -9,7 +9,7 @@ function Resume() {
           <div style={{padding: '20px', paddingBottom:'0', width: '80%', margin: 'auto',color: '#a5b3ce' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div>
-            <h1 style={{ margin: '0', color:'white' }}>Nikhil Sharma</h1>
+            <h1 style={{paddingTop: '4rem', margin: '0', color:'white' }}>Nikhil Sharma</h1>
             <p style={{ margin: '0' }}>Kalyanpur Khurd, Kanpur, Uttar Pradesh</p>
             <p style={{ margin: '0' }}>sharma842nikhil@gmail.com</p>
             <p style={{ margin: '0' }}>+91 8429770705</p>

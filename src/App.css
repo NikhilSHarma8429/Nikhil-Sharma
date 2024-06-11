@@ -31,7 +31,7 @@ body{
 }
 
 .logos:hover{
-  color: #fe655c
+  color: #588fef;
 }
 
 .logos {
@@ -49,6 +49,7 @@ body{
 }
 
 .fa-bars:hover{
+  color: #588fef;
   cursor: pointer;
 }
 

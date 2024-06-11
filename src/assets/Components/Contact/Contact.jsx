@@ -15,7 +15,7 @@ function Contact() {
             <div className="header-paragraph" id={ResumeCSS.headerParagraph}>
               <div className="paragraph" id={ResumeCSS.paragraph}>
                 <p>
-                  3rd-year B.Tech student with a strongpassion for coding and a solid grasp ofdata structures and algorithms. I'mcommitted to learning, staying updated,and pursuing internships to contribute tosoftware development.
+                Feel free to reach out to discuss potential opportunities, collaborations, or any questions you may have. I'm looking forward to connecting and exploring how we can work together.
                 </p>
               </div>
               <div className={ResumeCSS.contactFormContainer}>

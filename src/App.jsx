@@ -12,6 +12,7 @@ import Allinone from './assets/Components/Projects/All-in-one/Allinone'
 import Fitsportchamp from './assets/Components/Projects/Fitsportchamp/Fitsportchamp'
 import Commentvibe from './assets/Components/Projects/Commentvibe/Commentvibe'
 import { SidebarProvider } from './assets/Context/SidebarContext'
+import EcommerceClone from './assets/Components/Projects/Ecommerce-clone/EcommerceClone'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +31,7 @@ function App() {
           <Route path="/projects/all-in-one" element={<Allinone />} />
           <Route path="/projects/commentvibe" element={<Commentvibe/>} />
           <Route path="/projects/fitsportchamp" element={<Fitsportchamp/>} />
+          <Route path="/projects/ecommerce-clone" element={<EcommerceClone/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/*" element={<Error/>} />
           <Route path="/projects/*" element={<Error/>} />
