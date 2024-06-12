@@ -81,7 +81,7 @@ function Projects() {
                 </div>
                 <div className={`paragraph ${ProjectCSS.cardparagraph}`}>
                   <p>
-                  Developed a project for the GFG Solving for India Hackathon 2023, offering diverse reading materials on exercises and sports to enhance user’s physical fitness and diet.
+                  This fully functional eCommerce clone project features a robust backend and integrated database, supporting user authentication, product management, shopping cart, and order processing.
                   </p>
                 </div>
                 <div className={ProjectCSS.cardsubheading}>
