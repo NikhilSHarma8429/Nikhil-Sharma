@@ -1,6 +1,6 @@
 .projectcard{
     width: 90%;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
     margin: 0 auto;
     display: flex;
     padding-bottom: 2rem;
@@ -25,6 +25,11 @@ img{
     border-radius: 2rem;
 }
 
+/* .cardimage img:hover{
+    transform: scale(1.5);
+    object-fit: cover;
+} */    
+
 .cardlogocontainer{
     display: flex;
 }
@@ -38,7 +43,7 @@ img{
 
 .cardcontent{
     padding: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 0rem;
 }
 
 .cardparagraph{
@@ -49,8 +54,45 @@ img{
     text-align: left;
 }
 
+Navlink{
+    width: max-content;
+}
+
 .cardsubheading{
     padding-top: 1rem;
     font-size: 1.3rem;
     color: white;
+    width: max-content;
+}
+
+@media screen and (max-width: 1102px){
+    .cardtitle{
+        font-size: 0.8rem;
+    }
+    .cardparagraph{
+        font-size: 0.9rem;
+    }
+    .logocontainer{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .projectcard{
+        display: block;
+    }
+    .cardcontent{
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    .cardparagraph{
+        text-align: center;
+    }
+    .cardsubheading{
+        margin: 0 auto;
+    }
+    .cardlogocontainer{
+        justify-content: center;
+    }
 }

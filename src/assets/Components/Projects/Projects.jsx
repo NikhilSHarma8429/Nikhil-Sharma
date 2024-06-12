@@ -30,7 +30,7 @@ function Projects() {
 
           <div className="header-container" style={{marginTop: '1rem', marginBottom: '2rem'}}>
 
-            <div className={ProjectCSS.projectcard}>
+            <div className={ProjectCSS.projectcard} style={{paddingTop: '3rem'}}>
               <div className={ProjectCSS.cardimage}>
                 <img src="25516.jpg" alt="" />
               </div>
@@ -63,11 +63,11 @@ function Projects() {
                     <img src="mongodb-icon-2.svg" alt="" />
                   </div>
                 </div>
-                <NavLink to="/projects/commentvibe" style={{textDecoration:'none'}}>
-                  <div className={ProjectCSS.cardsubheading} style={{paddingTop: '0.4rem', color: '#71abd4'}}>
-                    <h5>View Project <i className="fa-solid fa-arrow-right"></i></h5>
-                  </div>
-                </NavLink>
+                <div className={ProjectCSS.cardsubheading} style={{paddingTop: '0.4rem', color: '#71abd4'}}>
+                    <NavLink to="/projects/commentvibe" style={{textDecoration:'none', color:'inherit'}}>
+                      <h5>View Project <i className="fa-solid fa-arrow-right"></i></h5>
+                    </NavLink>
+                </div>
               </div>
             </div>
 
@@ -98,11 +98,11 @@ function Projects() {
                     <img src="mongodb-icon-2.svg" alt="" />
                   </div>
                 </div>
-                <NavLink to="/projects/ecommerce-clone" style={{textDecoration:'none'}}>
-                  <div className={ProjectCSS.cardsubheading} style={{paddingTop: '0.4rem', color: '#71abd4'}}>
-                    <h5>View Project <i className="fa-solid fa-arrow-right"></i></h5>
-                  </div>
-                </NavLink>
+                <div className={ProjectCSS.cardsubheading} style={{paddingTop: '0.4rem', color: '#71abd4'}}>
+                    <NavLink to="/projects/ecommerce-clone" style={{textDecoration:'none', color:'inherit'}}>
+                      <h5>View Project <i className="fa-solid fa-arrow-right"></i></h5>
+                    </NavLink>
+                </div>
               </div>
             </div>
 
@@ -136,11 +136,11 @@ function Projects() {
                     <img src="wordpress-icon.svg" alt="" />
                   </div>
                 </div>
-                <NavLink to="/projects/fitsportchamp" style={{textDecoration:'none'}}>
-                  <div className={ProjectCSS.cardsubheading} style={{paddingTop: '0.4rem', color: '#71abd4'}}>
-                    <h5>View Project <i className="fa-solid fa-arrow-right"></i></h5>
-                  </div>
-                </NavLink>
+                <div className={ProjectCSS.cardsubheading} style={{paddingTop: '0.4rem', color: '#71abd4'}}>
+                    <NavLink to="/projects/fitsportchamp" style={{textDecoration:'none', color:'inherit'}}>
+                      <h5>View Project <i className="fa-solid fa-arrow-right"></i></h5>
+                    </NavLink>
+                </div>
               </div>
             </div>
 
@@ -154,7 +154,7 @@ function Projects() {
                 </div>
                 <div className={`paragraph ${ProjectCSS.cardparagraph}`}>
                   <p>
-                  Designed to replicate YouTube and Spotify functionalities, including video streaming and music playback. Enabled users to watch and download YouTube videos, and listen to music seamlessly
+                  Designed to replicate YouTube and Spotify functionalities. Enabled users to watch and download YouTube videos, and listen to music seamlessly
                   </p>
                 </div>
                 <div className={ProjectCSS.cardsubheading}>
@@ -174,11 +174,11 @@ function Projects() {
                     <img src="128px-Bootstrap_logo.svg.png" alt="" />
                   </div>
                 </div>
-                <NavLink to="/projects/all-in-one" style={{textDecoration:'none'}}>
                   <div className={ProjectCSS.cardsubheading} style={{paddingTop: '0.4rem', color: '#71abd4'}}>
-                    <h5>View Project <i className="fa-solid fa-arrow-right"></i></h5>
+                    <NavLink to="/projects/all-in-one" style={{textDecoration:'none', color:'inherit'}}>
+                      <h5>View Project <i className="fa-solid fa-arrow-right"></i></h5>
+                    </NavLink>
                   </div>
-                </NavLink>
               </div>
             </div>
           </div>
