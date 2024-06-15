@@ -77,7 +77,7 @@ function Projects() {
               </div>
               <div className={ProjectCSS.cardcontent}>
                 <div className={ProjectCSS.cardtitle}>
-                  <h2>Fully Functional Ecommerce Clone </h2>
+                  <h2>Ecommerce Clone </h2>
                 </div>
                 <div className={`paragraph ${ProjectCSS.cardparagraph}`}>
                   <p>
