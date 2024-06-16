@@ -17,7 +17,7 @@ function Sidebar() {
         <div className={sidebarState.className} style={sidebarState.style}>
           <div className="sidebar">
             <NavLink to="/" style={({isActive}) => isActive ? { textDecoration: "none", color: "#fe655c" } : { textDecoration:"none", color: "inherit"}}>
-            <div className="sidebar-content">
+            <div className="sidebar-content zoom">
               <div className="sidebar-logo-container">
                 <i className="fa-solid fa-circle-user fa-lg sidebar-logos"></i>
               </div>
@@ -27,7 +27,7 @@ function Sidebar() {
             </div>
             </NavLink>
             <NavLink to="/projects" style={({isActive}) => isActive ? { textDecoration: "none", color: "#fe655c" } : { textDecoration:"none", color: "inherit"}}>
-            <div className="sidebar-content">
+            <div className="sidebar-content zoom">
               <div className="sidebar-logo-container">
                 <i className="fa-solid fa-briefcase fa-lg sidebar-logos"></i>
               </div>
@@ -37,7 +37,7 @@ function Sidebar() {
             </div>
             </NavLink>
             <NavLink to="/resume" style={({isActive}) => isActive ? { textDecoration: "none", color: "#fe655c" } : { textDecoration:"none", color: "inherit"}}>
-            <div className="sidebar-content">
+            <div className="sidebar-content zoom">
               <div className="sidebar-logo-container">
                 <i className="fa-solid fa-file fa-lg sidebar-logos"></i>
               </div>
@@ -47,7 +47,7 @@ function Sidebar() {
             </div>
             </NavLink>
             <NavLink to="/contact" style={({isActive}) => isActive ? { textDecoration: "none", color: "#fe655c" } : { textDecoration:"none", color: "inherit"}}>
-            <div className="sidebar-content">
+            <div className="sidebar-content zoom">
               <div className="sidebar-logo-container">
                 <i className="fa-solid fa-comments fa-lg sidebar-logos"></i>
               </div>
@@ -56,7 +56,7 @@ function Sidebar() {
               </div>
             </div>
             </NavLink>
-            <div className="sidebar-content" id='cross-bar' onClick={handleClick}>
+            <div className="sidebar-content zoom" id='cross-bar' onClick={handleClick}>
               <div className="sidebar-logo-container">
                 <i className="fa-solid fa-xmark fa-lg sidebar-logos"></i>            
               </div>

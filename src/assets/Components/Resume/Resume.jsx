@@ -132,7 +132,7 @@ function Resume() {
           </div>
           <div className="paragraph-button-container">
             <a href="https://drive.google.com/file/d/1FqBPHABjh1xD6eAsw8hIJ3ksjmP5j3mv/view" target='_blank' style={{ textDecoration: "none", color: "inherit" }}>
-              <div className="button">
+              <div className="button zoom">
                   <h5 className="button-text">PDF View <i className="fa-solid fa-arrow-right"></i> </h5> 
               </div>
             </a>

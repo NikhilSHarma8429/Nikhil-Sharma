@@ -321,7 +321,12 @@ body{
 .p-container{
   position: relative;
 }
-
+.zoom{
+  transition: transform 0.2s;
+}
+.zoom:hover{
+  transform: scale(1.05);
+}
 /* .p-second{
   left: calc(100% / 3);
 }

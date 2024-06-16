@@ -4,12 +4,10 @@
     margin: 0 auto;
     display: flex;
     padding-bottom: 2rem;
-    transition: transform 0.2s;
+    
 }
 
-.projectcard:hover{
-    transform: scale(1.05);
-}
+
 
 img{
     width: 100%;

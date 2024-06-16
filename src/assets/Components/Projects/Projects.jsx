@@ -21,7 +21,7 @@ function Projects() {
             </div>
             <div className="paragraph-button-container">
               <NavLink to="/resume" style={{ textDecoration: "none", color: "inherit" }}>
-                <div className="button">
+                <div className="button zoom">
                     <h5 className="button-text">View Resume <i className="fa-solid fa-arrow-right"></i> </h5> 
                 </div>
               </NavLink>
@@ -30,7 +30,7 @@ function Projects() {
 
           <div className="header-container" style={{marginTop: '1rem', marginBottom: '2rem'}}>
 
-            <div className={ProjectCSS.projectcard} style={{paddingTop: '3rem'}}>
+            <div className={`zoom ${ProjectCSS.projectcard}`} style={{paddingTop: '3rem'}}>
               <div className={ProjectCSS.cardimage}>
                 <img src="25516.jpg" alt="" />
               </div>
@@ -71,7 +71,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className={ProjectCSS.projectcard}>
+            <div className={`zoom ${ProjectCSS.projectcard}`}>
               <div className={ProjectCSS.cardimage}>
                 <img src="25516.jpg" alt="" />
               </div>
@@ -106,7 +106,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className={ProjectCSS.projectcard}>
+            <div className={`zoom ${ProjectCSS.projectcard}`}>
               <div className={ProjectCSS.cardimage}>
                 <img src="Screenshot (729).png" alt="" />
               </div>
@@ -144,7 +144,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className={ProjectCSS.projectcard}>
+            <div className={`zoom ${ProjectCSS.projectcard}`} >
               <div className={ProjectCSS.cardimage}>
                 <img src="Screenshot (730).png" alt="" />
               </div>

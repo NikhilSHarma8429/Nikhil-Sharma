@@ -20,7 +20,7 @@ function Home() {
               </div>
               <div className="paragraph-button-container">
                 <NavLink to="/contact" style={{ textDecoration: "none", color: "inherit" }}>
-                <div className="button">
+                <div className="button zoom">
                   <h5 className="button-text">Get in Touch <i className="fa-solid fa-arrow-right"></i> </h5> 
                 </div>
                 </NavLink>
@@ -44,7 +44,7 @@ function Home() {
             <div className="project-body-container">
               
             <div className="p-container">
-              <div className="p-card p-visible-1">
+              <div className="p-card p-visible-1 zoom">
                 <div className="p-visible">
                   <div className="p-image-container">
                     <img src="25516.jpg" alt="" className="p-image" />
@@ -65,7 +65,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="p-card p-visible-2">
+              <div className="p-card p-visible-2 zoom">
                 <div className="p-visible">
                   <div className="p-image-container">
                     <img src="Screenshot (730).png" alt="" className="p-image" />
@@ -86,7 +86,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="p-card p-visible-3">
+              <div className="p-card p-visible-3 zoom">
                 <div className="p-visible">
                   <div className="p-image-container">
                     <img src="Screenshot (729).png" alt="" className="p-image" />
@@ -112,7 +112,7 @@ function Home() {
             </div>
             <div className="paragraph-button-container">
               <NavLink to="/projects" style={{ textDecoration: "none", color: "inherit" }}>
-                <div className="button">
+                <div className="button zoom">
                     <h5 className="button-text">More Projects <i className="fa-solid fa-arrow-right"></i> </h5> 
                 </div>
               </NavLink>
@@ -172,7 +172,7 @@ function Home() {
             </div>
             <div className="paragraph-button-container">
               <NavLink to="/resume" style={{ textDecoration: "none", color: "inherit" }}>
-                <div className="button">
+                <div className="button zoom">
                   <h5 className="button-text">View Resume <i className="fa-solid fa-arrow-right"></i> </h5> 
                 </div>
               </NavLink>

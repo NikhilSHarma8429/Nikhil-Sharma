@@ -28,24 +28,24 @@ function Navbar() {
     <>
         <div className="navbar">
         <div className="left-navbar">
-          <i className='fa-solid fa-bars fa-lg R_to_L' onClick={() => {navbarclickHandler()}}></i>
+          <i className='fa-solid fa-bars fa-lg R_to_L zoom' onClick={() => {navbarclickHandler()}}></i>
         </div>
         <div className="center-navbar">
           {/* <div className="logo-box"> */}
             <a href="https://github.com/NikhilSHarma8429" target="_blank">
-              <i className="fa-brands fa-github logos"></i>
+              <i className="fa-brands fa-github logos zoom"></i>
             </a>
             <a href="https://www.linkedin.com/in/nikhil-sharma-4a599221b/" target="_blank">
-             <i className="fa-brands fa-linkedin-in logos"></i>
+             <i className="fa-brands fa-linkedin-in logos zoom"></i>
             </a>
             <a href="mailto:sharma842nikhil@gmail.com" target="_blank">
-             <i className="cib-gmail logos"></i>
+             <i className="cib-gmail logos zoom"></i>
             </a>
             <a href="https://leetcode.com/u/sharma842nikhil/" target="_blank">
-              <i className="cib-leetcode logos"></i>
+              <i className="cib-leetcode logos zoom"></i>
             </a>
             <a href="https://codeforces.com/profile/Nikhil84" target="_blank">
-              <i className="fa-solid fa-chart-simple logos"></i>
+              <i className="fa-solid fa-chart-simple logos zoom"></i>
             </a>
             {/* <span className="material-symbols-outlined logos test">
 bar_chart
