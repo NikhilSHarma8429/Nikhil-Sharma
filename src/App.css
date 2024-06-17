@@ -142,8 +142,11 @@ body{
 
 .header-title h1{
   width: max-content;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 0 0.2rem;
   padding-top: 4rem;
+  text-align: center;
 }
 
 .header-paragraph{
@@ -216,7 +219,7 @@ body{
 }
 
 .s-logos{
-  width: 3rem;
+  width: 2.5rem;
   aspect-ratio: 2/2;
 }
 

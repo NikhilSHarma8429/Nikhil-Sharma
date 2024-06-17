@@ -9,17 +9,29 @@
 }
 .linkContainer{
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 .linkTitle{
     width: max-content;
+    color: #a5b3ce;
+    font-size: 0.8rem;
 }
 .linkLogo, .linkTitle{
     margin: 0 auto;
 }
 .linkLogo{
-    width: 2rem;
+    /* display: flex;
+    justify-content: center;
+    height: 3rem; */
+}
+.lLogo{
+    padding-bottom: 0.5rem;
+    color: #a5b3ce;
+    margin: 0 auto;
 }
 .linkWrapper{
     display: flex;
     padding-top: 2rem;
+    /* flex-shrink: 0; */
 }
