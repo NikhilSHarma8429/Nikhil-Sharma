@@ -136,36 +136,36 @@ function Home() {
               <div className="s-body-logos">
                 <div className="s-logos-first">
                     <div className="s-logos-container">
-                      <img src="c-1.svg" className="s-logos" alt="" />
+                      <img src="c-1.svg" className="s-logos zoom" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="c.svg" className="s-logos" alt="" />
+                      <img src="c.svg" className="s-logos zoom" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="python-5.svg" className="s-logos" alt="" />
+                      <img src="python-5.svg" className="s-logos zoom" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="react-2.svg" className="s-logos" alt="" />
+                      <img src="react-2.svg" className="s-logos zoom" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="mongodb-icon-2.svg" className="s-logos" alt="" />
+                      <img src="mongodb-icon-2.svg" className="s-logos zoom" alt="" />
                     </div>
                 </div>
                 <div className="s-logos-second" style={{marginTop: '0.4rem'}}>
                     <div className="s-logos-container">
-                      <img src="logo-javascript.svg" className="s-logos" alt="" />
+                      <img src="logo-javascript.svg" className="s-logos zoom" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="github-icon-1.svg" className="s-logos" alt="" />
+                      <img src="github-icon-1.svg" className="s-logos zoom" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="w3_css-icon.svg" className="s-logos" alt="" />
+                      <img src="w3_css-icon.svg" className="s-logos zoom" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="mysql-official.svg" className="s-logos" alt="" />
+                      <img src="mysql-official.svg" className="s-logos zoom" alt="" />
                     </div>
                     <div className="s-logos-container">
-                      <img src="Node.js_logo.svg" className="s-logos" alt="" />
+                      <img src="Node.js_logo.svg" className="s-logos zoom" alt="" />
                     </div>
                 </div>
               </div>

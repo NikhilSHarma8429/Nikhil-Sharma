@@ -19,21 +19,21 @@ function Fitsportchamp() {
             </div>
             <div className={CSS.linkWrapper}>
               <div className={CSS.linkContainer}>
-                <a href="http://www.google.com" target="_blank" className={CSS.lLogo}>
-                  <i class="fa-brands fa-github-alt fa-2xl"></i>
+                <a href="https://github.com/NikhilSHarma8429/fitsportchamp" target="_blank" className={CSS.lLogo}>
+                  <i class="fa-brands fa-github-alt fa-xl"></i>
                 </a>
                 <div className={CSS.linkTitle}>
-                  <a href="http://www.google.com" target="_blank" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <a href="https://github.com/NikhilSHarma8429/fitsportchamp" target="_blank" style={{textDecoration: 'none', color: 'inherit'}}>
                     <h3>Github</h3>
                   </a>
                 </div>
               </div>
               <div className={CSS.linkContainer}>
-                <a href="http://www.google.com" target="_blank" className={CSS.lLogo}>
-                  <i class="fa-solid fa-link fa-2xl link-logo"></i>
+                <a href="https://fitsportchamp.vercel.app/" target="_blank" className={CSS.lLogo}>
+                  <i class="fa-solid fa-link fa-xl link-logo"></i>
                 </a>
                 <div className={CSS.linkTitle}>
-                  <a href="http://www.google.com" target="_blank" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <a href="https://fitsportchamp.vercel.app/" target="_blank" style={{textDecoration: 'none', color: 'inherit'}}>
                     <h3>Live Link</h3>
                   </a>
                 </div>

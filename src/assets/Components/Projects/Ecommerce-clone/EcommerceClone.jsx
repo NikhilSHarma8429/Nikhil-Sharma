@@ -20,7 +20,7 @@ function EcommerceClone() {
           <div className={CSS.linkWrapper}>
             <div className={CSS.linkContainer}>
               <a href="http://www.google.com" target="_blank" className={CSS.lLogo}>
-                <i class="fa-brands fa-github-alt fa-2xl"></i>
+                <i class="fa-brands fa-github-alt fa-xl"></i>
               </a>
               <div className={CSS.linkTitle}>
                 <a href="http://www.google.com" target="_blank" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -30,7 +30,7 @@ function EcommerceClone() {
             </div>
             <div className={CSS.linkContainer}>
               <a href="http://www.google.com" target="_blank" className={CSS.lLogo}>
-                <i class="fa-solid fa-link fa-2xl link-logo"></i>
+                <i class="fa-solid fa-link fa-xl link-logo"></i>
               </a>
               <div className={CSS.linkTitle}>
                 <a href="http://www.google.com" target="_blank" style={{textDecoration: 'none', color: 'inherit'}}>
